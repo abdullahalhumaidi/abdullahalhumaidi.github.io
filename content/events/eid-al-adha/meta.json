@@ -1,0 +1,32 @@
+{
+  "id": "eid-al-adha",
+  "status": "approved",
+  "order": 2,
+  "type": "occasion",
+  "title": {
+    "ar": "عيد الأضحى",
+    "en": "Eid al-Adha"
+  },
+  "description": {
+    "ar": "فعاليات عيد الأضحى داخل المكتب.",
+    "en": "Eid al-Adha activities at the office."
+  },
+  "role": {
+    "ar": "قدت تنظيم وتنفيذ فعاليات عيد الأضحى، من التخطيط والتجهيز إلى تجربة تجمع الموظفين",
+    "en": "Led the planning, setup and delivery of the Eid al-Adha activities, creating an experience that brought everyone together"
+  },
+  "relatedWorks": [],
+  "relatedPosts": [
+    "post-eid"
+  ],
+  "how": {
+    "ar": "ركن العيد، وبطاقة التهنئة.",
+    "en": "An Eid corner and the greeting card."
+  },
+  "comms": {
+    "ar": "أقود مناسبة كاملة من التخطيط إلى التنفيذ.",
+    "en": "I can lead a full occasion from plan to delivery."
+  },
+  "roleType": "led",
+  "concept": false
+}
