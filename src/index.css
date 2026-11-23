@@ -1,0 +1,97 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-bg: #17191b;
+  --color-ink: #eceae3;
+  --color-text: #d9d7cf;
+  --color-muted: #b9b7af;
+  --color-mist: #c9cfda;
+  --color-navy: #1c2b45;
+  --color-navy-2: #283a5a;
+  /* Brand green: the ONLY green in the site. Change it here and everything follows. */
+  --color-brand: #12544f;
+  --color-brand-2: color-mix(in oklab, var(--color-brand) 80%, white); /* lighter surface (envelope flaps) */
+  --color-brand-light: color-mix(in oklab, var(--color-brand) 45%, white); /* accents & text on dark backgrounds */
+  --color-soot: #23261f;
+  --color-line: #45483f;
+  --color-panel: #1e2022;
+  --font-display: 'Bricolage Grotesque Variable', 'Lalezar', system-ui, sans-serif;
+  --font-body: 'IBM Plex Sans Arabic', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    background: var(--color-bg);
+    color: var(--color-text);
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+    font-family: var(--font-body);
+    line-height: 1.75;
+    overflow-x: hidden;
+  }
+  a {
+    color: var(--color-brand-light);
+  }
+  a:hover {
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-brand-light);
+    outline-offset: 4px;
+  }
+  ::selection {
+    background: var(--color-brand);
+    color: var(--color-ink);
+  }
+}
+
+/* Display type: Lalezar for Arabic, Bricolage Grotesque for Latin */
+.dsp {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-synthesis: none;
+  line-height: 1.28;
+}
+html[lang='en'] .dsp {
+  line-height: 1;
+  letter-spacing: -0.035em;
+}
+
+/* Slight print-like tilts used across envelopes, posters and cards */
+.tilt-1 { transform: rotate(-3deg); }
+.tilt-2 { transform: rotate(2deg); }
+.tilt-3 { transform: rotate(-1.5deg); }
+.tilt-4 { transform: rotate(3deg); }
+.lift { transition: transform 0.45s cubic-bezier(0.2, 0.9, 0.25, 1.2); }
+.lift:hover, .lift:focus-visible { transform: rotate(0deg) translateY(-10px) scale(1.02); }
+
+/* Seamless marquee: two identical halves; each half is wider than the screen.
+   Arabic (RTL) moves right, English (LTR) moves left, both loop without a gap. */
+.marquee-wrap { overflow: hidden; contain: paint; }
+.marquee { display: flex; width: max-content; will-change: transform; animation: marquee-rtl 60s linear infinite; }
+html[dir='ltr'] .marquee { animation-name: marquee-ltr; }
+.marquee-half { display: flex; flex-shrink: 0; }
+@keyframes marquee-rtl { from { transform: translateX(0); } to { transform: translateX(50%); } }
+@keyframes marquee-ltr { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+.skill-row { transition: padding 0.35s ease, color 0.35s ease; }
+.skill-row:hover { padding-inline-start: 18px; color: var(--color-brand-light); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .marquee { animation: none; }
+  .lift, .skill-row { transition: none; }
+}
+
+/* Hero light: a soft radial fade, no hard edges */
+.glow {
+  background: radial-gradient(circle, color-mix(in oklab, var(--color-brand-light) 30%, transparent) 0%, transparent 70%);
+}
+.glow-ambient { top: 40px; inset-inline-start: -80px; animation: glow-drift 14s ease-in-out infinite alternate; }
+@keyframes glow-drift { from { transform: translate(0, 0); } to { transform: translate(40vw, 220px); } }
+html[dir='rtl'] .glow-ambient { animation-name: glow-drift-rtl; }
+@keyframes glow-drift-rtl { from { transform: translate(0, 0); } to { transform: translate(-40vw, 220px); } }
+@media (prefers-reduced-motion: reduce) { .glow-ambient { animation: none; } }
