@@ -1,0 +1,26 @@
+{
+  "id": "work-anniversary",
+  "status": "approved",
+  "order": 9,
+  "category": "employee-experience",
+  "kicker": {
+    "ar": "ذكرى سنوية",
+    "en": "Work anniversary"
+  },
+  "title": {
+    "ar": "محطة تستاهل الاحتفال",
+    "en": "A milestone worth celebrating"
+  },
+  "description": {
+    "ar": "قالب تهنئة بذكرى الانضمام، وهذي النسخة كانت لي أنا بعد أول سنة.",
+    "en": "A work anniversary template, and this one was mine, after my first year."
+  },
+  "role": {
+    "ar": "إعداد القالب بصيغة HTML متجاوبة",
+    "en": "Built the template as a responsive HTML email"
+  },
+  "format": "html",
+  "file": "index.html",
+  "cover": "cover.jpg",
+  "eventId": "employee-moments"
+}

@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "Abdullah Almutairi | Internal & External Communications Specialist",
+    "description": "Abdullah Almutairi, Internal & External Communications Specialist. Messages, HTML announcements, events and interactive experiences that bring a company closer to its people."
+  },
+  "lang": {
+    "label": "Language",
+    "ar": "العربية",
+    "en": "English"
+  },
+  "review": {
+    "bar": "Review build: shows material awaiting your approval. Not for publishing as is.",
+    "badge": "Awaiting approval"
+  },
+  "hero": {
+    "notif": "New message from Abdullah Almutairi, Internal & External Communications Specialist",
+    "words": [
+      "Not",
+      "just",
+      "a",
+      "message."
+    ],
+    "teaser": "Two years in internal communications, running the function myself: from writing the messages to leading events and building employee engagement experiences.",
+    "open": "Open the message",
+    "me1": "I’m Abdullah Almutairi.",
+    "me2": "I turn communication into an experience.",
+    "sub": "Internal communications isn’t just a message that gets sent. It’s an idea that lands, an experience people live, and an impact that stays.",
+    "ctaWork": "See my work",
+    "ctaCv": "Download CV",
+    "ctaContact": "Get in touch",
+    "frags": [
+      "Stories",
+      "Posts",
+      "Ideas",
+      "Messages"
+    ]
+  },
+  "letters": {
+    "title": "Messages",
+    "intro": "Announcements I wrote, designed and built in HTML. Open any envelope to see it exactly as it landed in employees’ inboxes.",
+    "all": "All",
+    "cats": {
+      "internal-comms": "Internal Communications",
+      "employee-experience": "Employee Experience & Recognition"
+    },
+    "open": "Open it",
+    "role": "My role",
+    "desktop": "Desktop",
+    "mobile": "Mobile",
+    "prev": "Previous",
+    "next": "Next",
+    "close": "Close",
+    "device": "Preview size",
+    "note": "Shown in an isolated frame with scripts disabled.",
+    "image": "Image",
+    "empty": "Announcements will appear here once they’re cleared for publishing."
+  },
+  "events": {
+    "title": "Stories",
+    "intro": "Internal communication initiatives, each with exactly what my role was.",
+    "all": "All",
+    "types": {
+      "corporate": "Corporate events",
+      "occasion": "Occasions & awareness days",
+      "engagement": "Employee engagement"
+    },
+    "role": "My role",
+    "photo": "Photo",
+    "noPhotos": "Photos coming soon",
+    "relatedWorks": "Related announcements",
+    "relatedPosts": "Related post",
+    "story": "Story",
+    "of": "of",
+    "prev": "Previous",
+    "next": "Next",
+    "idea": "The idea",
+    "how": "How",
+    "comms": "The comms angle",
+    "concept": "From concept to execution",
+    "design": "See the design in Posters",
+    "details": "Details",
+    "roleTypes": {
+      "led": "Led it",
+      "team": "With the team"
+    },
+    "photos": "photos",
+    "openDesign": "Open the design",
+    "liveHtml": "Live HTML design"
+  },
+  "posters": {
+    "title": "Posters",
+    "intro": "Visual designs that gave our campaigns and occasions their look around the office.",
+    "tag": "From the work"
+  },
+  "ideas": {
+    "title": "Ideas to try",
+    "intro": "Interactive experiences I built for internal communications, so people engage with the message instead of just reading it.",
+    "try": "Try it",
+    "note": "Interactive demo; all names and data are fictional.",
+    "close": "Close",
+    "sandbox": "Runs in a frame isolated from this site."
+  },
+  "journey": {
+    "title": "Journey"
+  },
+  "posts": {
+    "title": "Posts",
+    "follow": "Follow me on LinkedIn",
+    "open": "View the post on LinkedIn",
+    "headline": "Internal Communications & PR",
+    "story": "The story",
+    "from": "How the post opens"
+  },
+  "contact": {
+    "title": "Let’s talk.",
+    "marquee": "Announcements / Events / Employee experience / Occasions / AI / ",
+    "email": "Email",
+    "phone": "Call",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "cv": "Download CV",
+    "pending": "Contact links will appear once confirmed."
+  },
+  "footer": {
+    "rights": "Abdullah Almutairi"
+  },
+  "mail": {
+    "inbox": "Inbox",
+    "from": "From",
+    "to": "To",
+    "toValue": "All employees",
+    "senderName": "Internal Communications Team",
+    "senderAddress": "internal-comms@example.com",
+    "reply": "Reply",
+    "forward": "Forward",
+    "disabled": "Not available in this preview",
+    "subject": "Subject"
+  },
+  "offer": {
+    "title": "What can I bring to your team?",
+    "see": "See the example",
+    "tools": "Tools"
+  }
+}

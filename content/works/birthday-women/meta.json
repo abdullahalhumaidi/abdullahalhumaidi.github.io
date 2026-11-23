@@ -1,0 +1,26 @@
+{
+  "id": "birthday-women",
+  "status": "approved",
+  "order": 7,
+  "category": "employee-experience",
+  "kicker": {
+    "ar": "يوم ميلاد | نسخة البنات",
+    "en": "Birthday, women’s version"
+  },
+  "title": {
+    "ar": "الكيكة جاهزة",
+    "en": "The cake is ready"
+  },
+  "description": {
+    "ar": "قالب تهنئة بيوم الميلاد بنسختين، وهذي نسخة الزميلات. الاسم وهمي.",
+    "en": "A birthday template in two versions; this one is for female colleagues. The name is fictional."
+  },
+  "role": {
+    "ar": "إعداد القالب بصيغة HTML متجاوبة",
+    "en": "Built the template as a responsive HTML email"
+  },
+  "format": "html",
+  "file": "index.html",
+  "cover": "cover.jpg",
+  "eventId": "employee-moments"
+}

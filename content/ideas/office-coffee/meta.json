@@ -1,0 +1,37 @@
+{
+  "id": "office-coffee",
+  "status": "approved",
+  "order": 1,
+  "kicker": {
+    "ar": "تجربة للموظفين",
+    "en": "Employee experience"
+  },
+  "title": {
+    "ar": "قهوة المكتب",
+    "en": "Office coffee"
+  },
+  "description": {
+    "ar": "تطبيق لطلب القهوة في المكتب: الموظف يصمم قهوته، والطلب يوصل للـ Tea Boy باسمه ورقم مكتبه ووقته.",
+    "en": "An office coffee app: people design their drink, and the order reaches the tea station with their name, desk and time."
+  },
+  "features": [
+    {
+      "ar": "طلب باسم الموظف ورقم مكتبه",
+      "en": "Orders by name and desk"
+    },
+    {
+      "ar": "اختيار وقت الطلب",
+      "en": "Pick your time"
+    },
+    {
+      "ar": "تصميم قهوتك الخاصة",
+      "en": "Design your own coffee"
+    },
+    {
+      "ar": "شاشة تستقبل الطلبات عند الـ Tea Boy",
+      "en": "Live order screen at the tea station"
+    }
+  ],
+  "app": "app.html",
+  "cover": "cover.jpg"
+}

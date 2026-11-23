@@ -1,0 +1,32 @@
+{
+  "id": "snapchat-partnership",
+  "status": "approved",
+  "order": 1,
+  "type": "corporate",
+  "title": {
+    "ar": "توقيع الشراكة مع سناب شات",
+    "en": "Snapchat partnership signing"
+  },
+  "description": {
+    "ar": "حفل توقيع الشراكة مع سناب شات وتفعيلها داخل المكتب.",
+    "en": "The Snapchat partnership signing, activated inside the office."
+  },
+  "role": {
+    "ar": "قدت التنظيم من البداية للنهاية، بالتنسيق مع الفرق المعنية والموردين",
+    "en": "Led the organization end to end, coordinating with the teams involved and suppliers"
+  },
+  "relatedWorks": [],
+  "relatedPosts": [
+    "post-snapchat"
+  ],
+  "how": {
+    "ar": "عربة قهوة سناب شات، وتجهيزات الحفل، والتنفيذ في الموقع.",
+    "en": "A Snapchat coffee cart, event setup and on-site delivery."
+  },
+  "comms": {
+    "ar": "أقدر أحول خبر مؤسسي لتجربة يعيشها الموظف.",
+    "en": "I can turn corporate news into something people experience."
+  },
+  "roleType": "led",
+  "concept": false
+}

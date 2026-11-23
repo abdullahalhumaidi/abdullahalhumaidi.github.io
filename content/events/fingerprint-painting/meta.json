@@ -1,0 +1,30 @@
+{
+  "id": "fingerprint-painting",
+  "status": "approved",
+  "order": 5,
+  "type": "engagement",
+  "title": {
+    "ar": "بصمتك تصنع لوحة",
+    "en": "Your fingerprint makes a painting"
+  },
+  "description": {
+    "ar": "لوحة وحدة يكملها الموظفين ببصماتهم.",
+    "en": "One artwork completed with employees’ fingerprints."
+  },
+  "role": {
+    "ar": "صاحب الفكرة، وخططتها ونظمتها ونفذتها",
+    "en": "My idea; I planned, organized and delivered it"
+  },
+  "relatedWorks": [],
+  "relatedPosts": [],
+  "how": {
+    "ar": "لوحة مطبوعة في المكتب، وكل موظف يضيف بصمته.",
+    "en": "A printed canvas in the office; each person adds a fingerprint."
+  },
+  "comms": {
+    "ar": "فكرة الفريق الواحد صارت شي ملموس.",
+    "en": "The idea of one team, made tangible."
+  },
+  "roleType": "led",
+  "concept": true
+}

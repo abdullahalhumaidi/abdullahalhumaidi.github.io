@@ -1,0 +1,25 @@
+{
+  "id": "gta-mission",
+  "status": "approved",
+  "order": 1,
+  "category": "internal-comms",
+  "kicker": {
+    "ar": "تحدي تفاعلي",
+    "en": "Interactive challenge"
+  },
+  "title": {
+    "ar": "مهمة في المدينة",
+    "en": "A mission in the city"
+  },
+  "description": {
+    "ar": "شعارات الشركة متوزعة في شوارع الرياض داخل لعبة، واللي يفك الألغاز يوصل قبل الكل.",
+    "en": "Company logos hidden across Riyadh inside a game, and whoever cracks the riddles gets there first."
+  },
+  "role": {
+    "ar": "صممت وطورت التعميم بـ HTML، بأسلوب بصري مختلف عن التعاميم التقليدية",
+    "en": "Designed and built the announcement in HTML, with a look that breaks from the usual circular"
+  },
+  "format": "html",
+  "file": "index.html",
+  "cover": "cover.jpg"
+}

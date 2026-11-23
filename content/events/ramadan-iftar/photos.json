@@ -1,0 +1,14 @@
+{
+  "eventId": "ramadan-iftar",
+  "status": "approved",
+  "photos": [
+    {
+      "file": "ramadan.jpg",
+      "facesBlurred": true
+    },
+    {
+      "file": "ramadan-prep.jpg",
+      "facesBlurred": false
+    }
+  ]
+}

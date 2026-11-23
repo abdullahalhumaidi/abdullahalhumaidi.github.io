@@ -1,0 +1,11 @@
+{
+  "id": "national-day-screen",
+  "status": "approved",
+  "order": 2,
+  "eventId": "national-day-96",
+  "title": {
+    "ar": "اليوم الوطني 96",
+    "en": "National Day 96"
+  },
+  "image": "nd96.jpg"
+}

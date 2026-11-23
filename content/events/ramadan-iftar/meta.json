@@ -1,0 +1,32 @@
+{
+  "id": "ramadan-iftar",
+  "status": "approved",
+  "order": 8,
+  "type": "occasion",
+  "title": {
+    "ar": "فطور رمضان",
+    "en": "Ramadan iftar"
+  },
+  "description": {
+    "ar": "فطور رمضان للشركة.",
+    "en": "The company Ramadan iftar."
+  },
+  "role": {
+    "ar": "أشرفت على تنظيم الفطور وتجهيزاته",
+    "en": "Oversaw the organization and setup of the iftar"
+  },
+  "relatedWorks": [],
+  "relatedPosts": [
+    "post-ramadan"
+  ],
+  "how": {
+    "ar": "تجهيز المكان والسفرة.",
+    "en": "Preparing the venue and the table."
+  },
+  "comms": {
+    "ar": "مناسبة تقرب الزملاء بعيد عن المكاتب.",
+    "en": "An occasion that brings colleagues closer, away from desks."
+  },
+  "roleType": "led",
+  "concept": false
+}

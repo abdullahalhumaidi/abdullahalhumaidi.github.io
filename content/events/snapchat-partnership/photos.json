@@ -1,0 +1,18 @@
+{
+  "eventId": "snapchat-partnership",
+  "status": "approved",
+  "photos": [
+    {
+      "file": "snap1.jpg",
+      "facesBlurred": false
+    },
+    {
+      "file": "snap.jpg",
+      "facesBlurred": false
+    },
+    {
+      "file": "snap3.jpg",
+      "facesBlurred": false
+    }
+  ]
+}

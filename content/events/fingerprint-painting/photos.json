@@ -1,0 +1,10 @@
+{
+  "eventId": "fingerprint-painting",
+  "status": "approved",
+  "photos": [
+    {
+      "file": "print.jpg",
+      "facesBlurred": false
+    }
+  ]
+}

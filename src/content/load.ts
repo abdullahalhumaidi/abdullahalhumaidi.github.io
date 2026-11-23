@@ -17,6 +17,12 @@ const pubAssets = import.meta.glob('/content/**/*.{jpg,jpeg,png,webp,gif,svg,ttf
   query: '?url',
   import: 'default',
 }) as Record<string, string>
+// Inline image files on demand for HTML emails rendered in sandboxed srcDoc frames.
+// This avoids fragile relative URLs and opaque-origin asset requests in Codespaces/Pages.
+const imageInline = import.meta.glob('/content/**/*.{jpg,jpeg,png,webp,gif,svg}', {
+  query: '?inline', import: 'default',
+}) as Record<string, () => Promise<string>>
+
 const pubHtml = import.meta.glob('/content/**/*.html', { query: '?raw', import: 'default' }) as Record<
   string,
   () => Promise<string>
@@ -149,14 +155,29 @@ async function prepareHtml(dir: string, file: string, rewriteAssets: boolean): P
     const load = fontInline[`${dir}/${u.replace(/^\.\//, '')}`]
     if (load) html = html.split(u).join(await load())
   }
-  // 2) images and other files: point relative paths at the bundled asset URLs.
-  const fix = (rel: string) => {
-    if (/^(https?:|data:|blob:|#|\/)/i.test(rel)) return rel
-    return assets[`${dir}/${rel.replace(/^\.\//, '')}`] ?? rel
+  // 2) Replace all local image references with data URIs, including CSS backgrounds.
+  // A srcDoc iframe has an opaque origin; embedded images render reliably in both
+  // the email reader and employee-moments live previews, on dev and GitHub Pages.
+  const imageRefs = new Set<string>()
+  const localImage = (rel: string) => !/^(https?:|data:|blob:|#|\/)/i.test(rel)
+  html.replace(/\s(?:src|background)\s*=\s*["']([^"']+)["']/gi, (_m, rel: string) => {
+    if (localImage(rel)) imageRefs.add(rel)
+    return ''
+  })
+  html.replace(/url\(\s*["']?([^"')]+)["']?\s*\)/gi, (_m, rel: string) => {
+    if (localImage(rel)) imageRefs.add(rel)
+    return ''
+  })
+  for (const rel of imageRefs) {
+    const key = `${dir}/${rel.replace(/^\.\//, '')}`
+    const loader = imageInline[key]
+    if (!loader) continue
+    const embedded = await loader()
+    // Replace the exact local filename wherever it appears (src, background, CSS url).
+    html = html.split(rel).join(embedded)
   }
   return html
-    .replace(/(\s(?:src|background)=")([^"]{1,1024})(")/gi, (_m, a, url, b) => a + fix(url) + b)
-    .replace(/(^|[^\w$.])url\((['"]?)([^'")]{1,1024})\2\)/g, (_m, pre, q, url) => `${pre}url(${q}${fix(url)}${q})`)
+
 }
 
 /** Warms a circular in the background (on hover/focus, or for the next/previous one), without opening it. */

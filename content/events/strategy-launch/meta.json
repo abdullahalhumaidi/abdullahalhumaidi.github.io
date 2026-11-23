@@ -1,0 +1,28 @@
+{
+  "id": "strategy-launch",
+  "status": "approved",
+  "order": 10,
+  "type": "corporate",
+  "title": {
+    "ar": "إطلاق الاستراتيجية الجديدة",
+    "en": "New strategy launch"
+  },
+  "description": {
+    "ar": "إطلاق استراتيجية الشركة الجديدة لكل الموظفين.",
+    "en": "Launching the new company strategy to everyone."
+  },
+  "role": {
+    "ar": "شاركت مع الفريق في تنظيم لقاء الإطلاق",
+    "en": "Worked with the team to organize the launch session"
+  },
+  "relatedWorks": [],
+  "relatedPosts": [
+    "post-strategy"
+  ],
+  "how": {
+    "ar": "لقاء واحد يسمع فيه الكل نفس الرسالة.",
+    "en": "One session where everyone hears the same message."
+  },
+  "roleType": "team",
+  "concept": false
+}

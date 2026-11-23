@@ -1,0 +1,25 @@
+{
+  "id": "welcome-new-hire",
+  "status": "approved",
+  "order": 6,
+  "category": "employee-experience",
+  "kicker": {
+    "ar": "ترحيب",
+    "en": "Welcome note"
+  },
+  "title": {
+    "ar": "نورت الفريق",
+    "en": "Welcome to the team"
+  },
+  "description": {
+    "ar": "قالب ترحيب بالزملاء الجدد، يعرف فيه الكل على الوجه الجديد ومكانه في الفريق. الاسم والبيانات وهمية.",
+    "en": "A template for introducing new colleagues: who they are and where they fit in. Name and details are fictional."
+  },
+  "role": {
+    "ar": "إعداد القالب بصيغة HTML متجاوبة",
+    "en": "Built the template as a responsive HTML email"
+  },
+  "format": "html",
+  "file": "index.html",
+  "cover": "cover.jpg"
+}

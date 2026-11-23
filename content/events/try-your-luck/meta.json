@@ -1,0 +1,30 @@
+{
+  "id": "try-your-luck",
+  "status": "approved",
+  "order": 4,
+  "type": "engagement",
+  "title": {
+    "ar": "جرب حظك",
+    "en": "Try your luck"
+  },
+  "description": {
+    "ar": "آلة صيد هدايا داخل المكتب.",
+    "en": "A gift claw machine in the office."
+  },
+  "role": {
+    "ar": "صاحب الفكرة، وخططتها ونظمتها ونفذتها",
+    "en": "My idea; I planned, organized and delivered it"
+  },
+  "relatedWorks": [],
+  "relatedPosts": [],
+  "how": {
+    "ar": "تجهيز الآلة والهدايا وواجهتها.",
+    "en": "Setting up the machine, the gifts and its front panel."
+  },
+  "comms": {
+    "ar": "لحظة مرح قصيرة تكسر الروتين ويشارك فيها الكل.",
+    "en": "A quick moment of fun that everyone joins."
+  },
+  "roleType": "led",
+  "concept": true
+}

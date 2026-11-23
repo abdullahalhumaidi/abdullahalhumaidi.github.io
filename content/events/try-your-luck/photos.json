@@ -1,0 +1,10 @@
+{
+  "eventId": "try-your-luck",
+  "status": "approved",
+  "photos": [
+    {
+      "file": "luck.jpg",
+      "facesBlurred": false
+    }
+  ]
+}

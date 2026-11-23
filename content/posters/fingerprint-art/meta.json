@@ -1,0 +1,11 @@
+{
+  "id": "fingerprint-art",
+  "status": "approved",
+  "order": 5,
+  "eventId": "fingerprint-painting",
+  "title": {
+    "ar": "بصمتك تصنع لوحة",
+    "en": "Your fingerprint makes a painting"
+  },
+  "image": "print1.jpg"
+}

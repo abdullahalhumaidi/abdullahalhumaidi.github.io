@@ -1,0 +1,14 @@
+{
+  "eventId": "strategy-launch",
+  "status": "approved",
+  "photos": [
+    {
+      "file": "strat.jpg",
+      "facesBlurred": true
+    },
+    {
+      "file": "strat-design.jpg",
+      "facesBlurred": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "anonymous-survey",
+  "status": "approved",
+  "order": 4,
+  "category": "internal-comms",
+  "kicker": {
+    "ar": "استبيان",
+    "en": "Survey"
+  },
+  "title": {
+    "ar": "سرك في بير",
+    "en": "Your secret’s safe"
+  },
+  "description": {
+    "ar": "مساحة يقول فيها الموظف اللي في خاطره بدون اسم، اقتراح كان أو فكرة أو حتى شكوى.",
+    "en": "A space for employees to say what’s on their mind anonymously, whether it’s an idea, a suggestion or a complaint."
+  },
+  "role": {
+    "ar": "إعداد التعميم ونشره بصيغة HTML متجاوبة",
+    "en": "Produced and distributed it as a responsive HTML email"
+  },
+  "format": "html",
+  "file": "index.html",
+  "cover": "cover.jpg"
+}

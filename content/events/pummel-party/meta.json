@@ -1,0 +1,32 @@
+{
+  "id": "pummel-party",
+  "status": "approved",
+  "order": 3,
+  "type": "engagement",
+  "title": {
+    "ar": "بطولة Pummel Party",
+    "en": "Pummel Party tournament"
+  },
+  "description": {
+    "ar": "بطولة بمناسبة اليوم العالمي للألعاب الإلكترونية.",
+    "en": "A tournament for World Gaming Day."
+  },
+  "role": {
+    "ar": "صاحب الفكرة، وخططتها ونظمتها ونفذتها",
+    "en": "My idea; I planned, organized and delivered it"
+  },
+  "relatedWorks": [
+    "ps5-tournament"
+  ],
+  "relatedPosts": [],
+  "how": {
+    "ar": "تعميم دعوة، تسجيل بالباركود، جولات حتى النهائي، وجوائز لأول ثلاثة.",
+    "en": "An invitation, QR sign-up, knockout rounds and prizes for the top three."
+  },
+  "comms": {
+    "ar": "أحول مناسبة عالمية لسبب يجمع الفرق.",
+    "en": "I turn a global day into a reason for teams to connect."
+  },
+  "roleType": "led",
+  "concept": true
+}

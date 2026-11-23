@@ -1,0 +1,26 @@
+{
+  "id": "birthday-men",
+  "status": "approved",
+  "order": 8,
+  "category": "employee-experience",
+  "kicker": {
+    "ar": "يوم ميلاد | نسخة الشباب",
+    "en": "Birthday, men’s version"
+  },
+  "title": {
+    "ar": "وله كيكة بعد",
+    "en": "And one for him too"
+  },
+  "description": {
+    "ar": "نسخة الزملاء من نفس القالب، وجربتها على اسمي.",
+    "en": "The male colleagues’ version of the same template, tested on my own name."
+  },
+  "role": {
+    "ar": "إعداد القالب بصيغة HTML متجاوبة",
+    "en": "Built the template as a responsive HTML email"
+  },
+  "format": "html",
+  "file": "index.html",
+  "cover": "cover.jpg",
+  "eventId": "employee-moments"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "build-your-lineup",
+  "status": "approved",
+  "order": 3,
+  "eventId": "world-cup",
+  "title": {
+    "ar": "اصنع تشكيلتك",
+    "en": "Build your lineup"
+  },
+  "image": "coach.jpg"
+}

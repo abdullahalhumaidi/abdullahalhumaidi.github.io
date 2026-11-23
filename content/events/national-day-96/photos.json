@@ -1,0 +1,18 @@
+{
+  "eventId": "national-day-96",
+  "status": "approved",
+  "photos": [
+    {
+      "file": "nd96-1.jpg",
+      "facesBlurred": false
+    },
+    {
+      "file": "nd-heic.jpg",
+      "facesBlurred": true
+    },
+    {
+      "file": "nd-photo1.jpg",
+      "facesBlurred": true
+    }
+  ]
+}

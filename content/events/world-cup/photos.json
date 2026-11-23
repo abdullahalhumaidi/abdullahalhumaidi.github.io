@@ -1,0 +1,10 @@
+{
+  "eventId": "world-cup",
+  "status": "approved",
+  "photos": [
+    {
+      "file": "worldcup.jpg",
+      "facesBlurred": false
+    }
+  ]
+}

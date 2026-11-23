@@ -1,0 +1,26 @@
+{
+  "id": "ps5-tournament",
+  "status": "approved",
+  "order": 5,
+  "category": "internal-comms",
+  "kicker": {
+    "ar": "بطولة",
+    "en": "Tournament"
+  },
+  "title": {
+    "ar": "ودك ببلاستيشن 5؟",
+    "en": "Fancy a PS5?"
+  },
+  "description": {
+    "ar": "لأن اليوم العالمي للألعاب الإلكترونية كان بالأسبوع، سوينا بطولة Pummel Party وجوائزها للمراكز الثلاثة الأولى.",
+    "en": "World Gaming Day fell that week, so we ran a Pummel Party tournament with prizes for the top three."
+  },
+  "role": {
+    "ar": "من الفكرة إلى التنفيذ",
+    "en": "From concept to execution"
+  },
+  "format": "image",
+  "file": "image.jpg",
+  "cover": "cover.jpg",
+  "eventId": "pummel-party"
+}

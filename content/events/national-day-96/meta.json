@@ -1,0 +1,32 @@
+{
+  "id": "national-day-96",
+  "status": "approved",
+  "order": 6,
+  "type": "occasion",
+  "title": {
+    "ar": "اليوم الوطني 96",
+    "en": "Saudi National Day 96"
+  },
+  "description": {
+    "ar": "الاحتفال باليوم الوطني 96 في المكتب.",
+    "en": "Saudi National Day 96 at the office."
+  },
+  "role": {
+    "ar": "خططت للاحتفال ونظمته",
+    "en": "Planned and organized the celebration"
+  },
+  "relatedWorks": [],
+  "relatedPosts": [
+    "post-national-day"
+  ],
+  "how": {
+    "ar": "أركان بهوية اليوم الوطني، وشاشات، ومجسمات.",
+    "en": "Themed corners, screens and displays."
+  },
+  "comms": {
+    "ar": "المناسبة الوطنية صارت تجربة مشتركة للفريق.",
+    "en": "A national occasion as a shared team experience."
+  },
+  "roleType": "led",
+  "concept": false
+}

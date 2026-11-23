@@ -1,0 +1,37 @@
+{
+  "id": "employee-of-the-month",
+  "status": "approved",
+  "order": 2,
+  "kicker": {
+    "ar": "مبادرة تقدير تفاعلية",
+    "en": "Interactive recognition"
+  },
+  "title": {
+    "ar": "موظف الشهر",
+    "en": "Employee of the Month"
+  },
+  "description": {
+    "ar": "موقع لموظف الشهر بهوية الشركة: ترشيح وتصويت، ولوحة تحكم، وشاشة تعلن الفائز.",
+    "en": "A branded Employee of the Month site: nominations and voting, an admin dashboard, and a winner reveal screen."
+  },
+  "features": [
+    {
+      "ar": "الترشيح والتصويت",
+      "en": "Nominations and voting"
+    },
+    {
+      "ar": "أسماء الموظفين",
+      "en": "Employee directory"
+    },
+    {
+      "ar": "لوحة تحكم",
+      "en": "Admin dashboard"
+    },
+    {
+      "ar": "إعلان الفائز بشكل تفاعلي",
+      "en": "Interactive winner reveal"
+    }
+  ],
+  "app": "app.html",
+  "cover": "cover.jpg"
+}

@@ -16,3 +16,9 @@ dist-single/
 
 # Company / unapproved material: NEVER commit
 content-private/
+
+# Local portfolio archive
+/abdullah-portfolio.zip
+
+# Local backup
+abdullah-portfolio-images-fixed.zip

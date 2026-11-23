@@ -1,0 +1,32 @@
+{
+  "id": "world-cup",
+  "status": "approved",
+  "order": 7,
+  "type": "occasion",
+  "title": {
+    "ar": "كأس العالم في المكتب",
+    "en": "World Cup at the office"
+  },
+  "description": {
+    "ar": "تفعيل كأس العالم في المكتب.",
+    "en": "The World Cup, brought into the office."
+  },
+  "role": {
+    "ar": "خططت التفعيلات ونظمتها",
+    "en": "Planned and organized the activations"
+  },
+  "relatedWorks": [],
+  "relatedPosts": [
+    "post-world-cup"
+  ],
+  "how": {
+    "ar": "أعلام المنتخبات، ولوحة اصنع تشكيلتك.",
+    "en": "Team flags and a build-your-lineup board."
+  },
+  "comms": {
+    "ar": "حماس البطولة صار حديث مشترك بين الفرق.",
+    "en": "Tournament buzz became a shared conversation."
+  },
+  "roleType": "led",
+  "concept": false
+}

@@ -1,0 +1,11 @@
+{
+  "id": "eid-greeting",
+  "status": "approved",
+  "order": 1,
+  "eventId": "eid-al-adha",
+  "title": {
+    "ar": "أضحى مبارك",
+    "en": "Eid Adha Mubarak"
+  },
+  "image": "adha-design.jpg"
+}
