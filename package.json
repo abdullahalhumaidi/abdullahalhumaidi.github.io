@@ -1,0 +1,35 @@
+{
+  "name": "abdullah-almutairi-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:review": "vite --mode review",
+    "build": "npm run check:content && tsc --noEmit && vite build",
+    "build:review": "tsc --noEmit && vite build --mode review",
+    "build:single": "tsc --noEmit && vite build --mode single",
+    "preview": "vite preview",
+    "check:content": "node scripts/check-content.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "5.2.10",
+    "@fontsource/ibm-plex-sans-arabic": "5.2.8",
+    "@fontsource/lalezar": "5.2.7",
+    "motion": "14.10.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.5",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "tailwindcss": "4.3.5",
+    "typescript": "5.9.3",
+    "vite": "8.3.6",
+    "vite-plugin-singlefile": "2.3.4"
+  }
+}

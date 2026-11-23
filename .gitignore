@@ -1,0 +1,18 @@
+# dependencies & builds
+node_modules/
+dist/
+dist-review/
+dist-review-single/
+dist-single/
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# environment files (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# Company / unapproved material: NEVER commit
+content-private/
