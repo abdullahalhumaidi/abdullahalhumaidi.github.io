@@ -1,0 +1,35 @@
+{
+  "id": "employee-moments",
+  "status": "approved",
+  "order": 9,
+  "type": "engagement",
+  "title": {
+    "ar": "لحظات الموظف",
+    "en": "Employee moments"
+  },
+  "description": {
+    "ar": "نحتفي بالموظف في يوم ميلاده وذكرى انضمامه.",
+    "en": "Celebrating birthdays and work anniversaries."
+  },
+  "role": {
+    "ar": "نسقت المناسبات، وصممت قوالب التهنئة بـ HTML",
+    "en": "Coordinated the occasions and designed the HTML greeting templates"
+  },
+  "relatedWorks": [
+    "work-anniversary",
+    "birthday-women",
+    "birthday-men"
+  ],
+  "relatedPosts": [],
+  "how": {
+    "ar": "قوالب تحمل اسم الموظف، بنسختين للبنات والشباب.",
+    "en": "Templates with each person’s name, in women’s and men’s versions."
+  },
+  "comms": {
+    "ar": "كل موظف يحس إن يومه مهم.",
+    "en": "Everyone feels their day matters."
+  },
+  "roleType": "led",
+  "concept": false,
+  "showWorks": true
+}
