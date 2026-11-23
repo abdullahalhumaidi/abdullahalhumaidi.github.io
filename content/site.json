@@ -1,0 +1,202 @@
+{
+  "name": {
+    "ar": "عبدالله المطيري",
+    "en": "Abdullah Almutairi"
+  },
+  "role": {
+    "ar": "أخصائي تواصل داخلي",
+    "en": "Internal Communications Specialist"
+  },
+  "contact": {
+    "status": "approved",
+    "email": "abdullahalhumaidi33@gmail.com",
+    "phone": "+966503734193",
+    "phoneDisplay": "050 373 4193",
+    "whatsapp": "https://wa.me/966503734193",
+    "linkedin": "https://www.linkedin.com/in/abdullah-alhumaidi3"
+  },
+  "cv": {
+    "status": "approved",
+    "url": "cv/Abdullah-Almutairi-CV.pdf"
+  },
+  "stats": [
+    {
+      "value": "+100",
+      "label": {
+        "ar": "تعميم داخلي كتبته ونشرته",
+        "en": "internal announcements written and published"
+      }
+    },
+    {
+      "value": "42",
+      "label": {
+        "ar": "نشاط في خطة 2026 للتواصل الداخلي وتجربة الموظف",
+        "en": "activities in the 2026 internal comms and engagement plan"
+      }
+    }
+  ],
+  "journey": [
+    {
+      "when": {
+        "ar": "2026 – الآن",
+        "en": "2026 – Present"
+      },
+      "role": {
+        "ar": "أخصائي تواصل داخلي",
+        "en": "Internal Communications Specialist"
+      },
+      "place": {
+        "ar": "إكستند، دوام كامل. المسؤول عن قسم التواصل الداخلي",
+        "en": "extend, full-time. Running the internal communications function"
+      }
+    },
+    {
+      "when": {
+        "ar": "2025",
+        "en": "2025"
+      },
+      "role": {
+        "ar": "متدرب تطوير أعمال",
+        "en": "Business Development Trainee"
+      },
+      "place": {
+        "ar": "إكستند، تدريب تعاوني جامعي",
+        "en": "extend, university cooperative training"
+      }
+    },
+    {
+      "when": {
+        "ar": "2022 – 2025",
+        "en": "2022 – 2025"
+      },
+      "role": {
+        "ar": "بكالوريوس العلاقات العامة والاتصال التسويقي",
+        "en": "BA, Public Relations & Marketing Communication"
+      },
+      "place": {
+        "ar": "جامعة الإمام محمد بن سعود الإسلامية، المعدل 4.30 من 5",
+        "en": "Imam Mohammad Ibn Saud Islamic University, GPA 4.30/5.00"
+      }
+    },
+    {
+      "when": {
+        "ar": "خلال الجامعة",
+        "en": "University"
+      },
+      "role": {
+        "ar": "شريك مؤسس للمجلس الاستشاري الطلابي",
+        "en": "Co-founder, Student Advisory Council"
+      },
+      "place": {
+        "ar": "ممثل قسم العلاقات العامة، وشاركت في تنظيم المؤتمر الوطني للإعلام",
+        "en": "PR department representative; helped organize the National Media Conference"
+      }
+    }
+  ],
+  "offer": [
+    {
+      "title": {
+        "ar": "من الفكرة إلى التعميم",
+        "en": "From idea to inbox"
+      },
+      "example": {
+        "ar": "أكتب التعميم وأصممه وأطوره بـ HTML. أكثر من 100 تعميم، حولتها من صور ثابتة إلى رسائل متجاوبة.",
+        "en": "I write, design and build announcements in HTML. 100+ sent, moved from static images to responsive emails."
+      },
+      "link": {
+        "type": "work",
+        "target": "gta-mission"
+      }
+    },
+    {
+      "title": {
+        "ar": "قنوات تسمع صوت الموظف",
+        "en": "Channels that listen to employees"
+      },
+      "example": {
+        "ar": "استبيان سرك في بير: مساحة بدون أسماء للأفكار والملاحظات.",
+        "en": "“Your secret’s safe”: an anonymous space for ideas and feedback."
+      },
+      "link": {
+        "type": "work",
+        "target": "anonymous-survey"
+      }
+    },
+    {
+      "title": {
+        "ar": "تخطيط حملات التواصل الداخلي",
+        "en": "Planning internal comms campaigns"
+      },
+      "example": {
+        "ar": "خطة 2026: 42 نشاط، منها 19 داخلي و23 خارجي.",
+        "en": "The 2026 plan: 42 activities, 19 internal and 23 external."
+      },
+      "link": null
+    },
+    {
+      "title": {
+        "ar": "قيادة فعاليات تعزز تفاعل الموظفين",
+        "en": "Leading events that drive engagement"
+      },
+      "example": {
+        "ar": "عيد الأضحى، وبطولة Pummel Party من الفكرة إلى التنفيذ.",
+        "en": "Eid al-Adha, and the Pummel Party tournament from concept to execution."
+      },
+      "link": {
+        "type": "story",
+        "target": "eid-al-adha"
+      }
+    },
+    {
+      "title": {
+        "ar": "مبادرات التقدير وتجربة الموظف",
+        "en": "Recognition and employee experience"
+      },
+      "example": {
+        "ar": "أعياد الميلاد وذكرى الانضمام بتعاميم تحمل اسم الموظف.",
+        "en": "Birthdays and work anniversaries, with announcements that carry each name."
+      },
+      "link": {
+        "type": "story",
+        "target": "employee-moments"
+      }
+    },
+    {
+      "title": {
+        "ar": "الذكاء الاصطناعي في خدمة التواصل",
+        "en": "AI in service of internal comms"
+      },
+      "example": {
+        "ar": "وكيل Claude يسرع الشغل، وتجارب تفاعلية مثل موظف الشهر.",
+        "en": "A Claude agent that speeds up the work, and interactive experiences like Employee of the Month."
+      },
+      "link": {
+        "type": "section",
+        "target": "ideas"
+      }
+    },
+    {
+      "title": {
+        "ar": "تنسيق المناسبات المؤسسية",
+        "en": "Coordinating corporate moments"
+      },
+      "example": {
+        "ar": "قدت توقيع شراكة سناب شات، وشاركت مع الفريق في إطلاق الاستراتيجية.",
+        "en": "Led the Snapchat partnership signing; worked with the team on the strategy launch."
+      },
+      "link": {
+        "type": "story",
+        "target": "snapchat-partnership"
+      }
+    }
+  ],
+  "tools": [
+    "Microsoft Office",
+    "Canva",
+    "Google Workspace",
+    "Basecamp",
+    "Wrike",
+    "ChatGPT",
+    "Claude AI"
+  ]
+}
